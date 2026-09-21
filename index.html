@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Adwitya — Trading Journal</title>
+  <meta name="description" content="Public trading journal and technical-analysis track record.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-dot"></span>ADWITYA<span class="muted"> / TRADING JOURNAL</span></a>
+  <nav>
+    <a href="#journal">Track Record</a>
+    <a href="#analytics">Analytics</a>
+    <a href="#method">Methodology</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <div class="eyebrow">PUBLIC TRADE JOURNAL · 2026</div>
+      <h1>Process first.<br><span>Results documented.</span></h1>
+      <p class="hero-copy">A transparent record of technical-analysis setups, planned risk, and final outcomes.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#journal">View track record</a>
+        <a class="btn ghost" href="#method">How I trade</a>
+      </div>
+    </div>
+    <div class="status-card">
+      <div class="status-top"><span class="live-dot"></span> JOURNAL STATUS <span class="status-value">ACTIVE</span></div>
+      <div class="equity-label">Cumulative R</div>
+      <div class="equity">+8.0R</div>
+      <div class="mini-line"><span style="height:35%"></span><span style="height:48%"></span><span style="height:42%"></span><span style="height:62%"></span><span style="height:55%"></span><span style="height:72%"></span><span style="height:88%"></span></div>
+      <div class="status-note">Illustrative demo data — replace with your own trades.</div>
+    </div>
+  </section>
+
+  <section class="stats" id="analytics">
+    <div class="stat"><span>Total setups</span><strong id="total">6</strong></div>
+    <div class="stat"><span>TP</span><strong id="wins">4</strong></div>
+    <div class="stat"><span>SL</span><strong id="losses">2</strong></div>
+    <div class="stat"><span>Win rate</span><strong id="winrate">66.7%</strong></div>
+    <div class="stat"><span>Net R</span><strong id="netr">+6.0R</strong></div>
+  </section>
+
+  <section class="section" id="journal">
+    <div class="section-head">
+      <div><div class="eyebrow">TRADE LOG</div><h2>Track record</h2></div>
+      <div class="filters">
+        <select id="assetFilter"><option value="ALL">All assets</option></select>
+        <select id="resultFilter"><option value="ALL">All results</option><option value="TP">TP</option><option value="SL">SL</option><option value="BE">BE</option><option value="OPEN">Open</option></select>
+      </div>
+    </div>
+    <div id="trades" class="trade-grid"></div>
+  </section>
+
+  <section class="section method" id="method">
+    <div class="section-head"><div><div class="eyebrow">TRANSPARENCY</div><h2>Methodology</h2></div></div>
+    <div class="method-grid">
+      <article><span>01</span><h3>Context</h3><p>Higher-timeframe structure, liquidity and key levels are identified before looking for an entry.</p></article>
+      <article><span>02</span><h3>Confirmation</h3><p>Entries are based on a defined technical trigger rather than hindsight.</p></article>
+      <article><span>03</span><h3>Risk</h3><p>Every setup records a planned invalidation level, target and risk-to-reward ratio.</p></article>
+      <article><span>04</span><h3>Review</h3><p>The final chart and result are logged after the trade closes.</p></article>
+    </div>
+    <p class="disclaimer">This website is a personal trading journal for educational and record-keeping purposes. It is not investment advice, a solicitation, or a guarantee of future performance.</p>
+  </section>
+</main>
+
+<footer>
+  <span>© 2026 Adwitya · Trading Journal</span>
+  <span>Public record · Personal use</span>
+</footer>
+<script src="trades.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
