@@ -8,7 +8,7 @@ const trades = [
     analysis:"Price swept sell-side liquidity, reclaimed structure and formed an entry around the imbalance."
   },
   {
-    id:"2", asset:"NAS100", direction:"SELL", session:"New York", date:"18 Sep 2026",
+    id:"453", asset:"NAS100", direction:"SELL", session:"New York", date:"18 Sep 2026",
     entry:"24,180", sl:"24,230", tp:"24,080", rr:"1:2", result:"TP", r:2,
     image:"", setup:"Resistance rejection",
     analysis:"Rejection from a marked HTF level followed by a lower-timeframe structure break."
